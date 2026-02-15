@@ -1,0 +1,23 @@
+body
+{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  Font size: 15px
+  margin: 30px;
+}
+h1{font-family: 'Lexend Deca', sans-serif;}
+p{ font-family: 'Big Shoulders', sans-serif; text-align: center; }
+
+@media screen and (max-width:600px) {
+    .stcol{border-top-right-radius: 10px; border-bottom-left-radius: 0px}
+    .rdcol{border-bottom-left-radius: 10px; border-top-right-radius: 0px}
+    table tr > *{
+        display: block;
+    }
+    table tr {
+        display: table-cell;
+    }
+}
