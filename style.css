@@ -7,17 +7,35 @@ body
   min-height: 100vh;
   Font size: 15px
   margin: 30px;
+  background-color: hsl(233, 47%, 7%);
 }
-h1{font-family: 'Lexend Deca', sans-serif;}
-p{ font-family: 'Big Shoulders', sans-serif; text-align: center; }
+ 
+h1 span{color:hsl(277, 64%, 61%)}
+h1{font-family: 'Lexend Deca', sans-serif; color: hsl(0, 0%, 100%);} 
+p{ font-family: 'Big Shoulders', sans-serif; text-align: center; color: hsla(0, 0%, 100%, 0.75);}
+
+img
+{ 
+  border-radius: 30px;
+  mix-blend-mode: multiply;
+  height: 50vh;
+}
+
+figure
+{
+  background-color: hsl(277, 64%, 61%);
+  border-radius: 30px;
+  float: left;
+  height: 50vh;
+}
+
+main 
+{
+  border: 0px solid white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: hsl(244, 37%, 16%);
+}
 
 @media screen and (max-width:600px) {
-    .stcol{border-top-right-radius: 10px; border-bottom-left-radius: 0px}
-    .rdcol{border-bottom-left-radius: 10px; border-top-right-radius: 0px}
-    table tr > *{
-        display: block;
-    }
-    table tr {
-        display: table-cell;
-    }
 }
