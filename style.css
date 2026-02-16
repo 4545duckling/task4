@@ -16,11 +16,10 @@ h1{font-family: 'Lexend Deca', sans-serif; color: hsl(0, 0%, 100%);}
 p{ font-family: 'Big Shoulders', sans-serif; color: hsla(0, 0%, 100%, 0.75);}
 h2{font-family: 'Lexend Deca', sans-serif; text-align: center; color:  hsl(0, 0%, 100%);} 
 
-
+.img2{display: none;}
 img
 { 
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 10px;
   mix-blend-mode: multiply;
   float: right;
   height: 50vh;
@@ -29,8 +28,7 @@ img
 figure
 {
   background-color: hsl(277, 64%, 61%);
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 10px;
   float: right;
   height: 50vh;
 }
@@ -40,12 +38,20 @@ aside
   padding: 40px;
   width: 50%;
   border: 0px solid white;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-radius: 10px;
   background-color: hsl(244, 37%, 16%);
 }
 
 @media screen and (max-width:600px) 
 {
-  
+   .img1{
+     display: none;
+   }
+
+   .img2{
+     display: block;
+   }
+  table tr > *{
+        display: block;
+    }
 }
